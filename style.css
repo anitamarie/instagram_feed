@@ -1,0 +1,38 @@
+body{
+    background-color:#BDBDBD;
+    margin: 0;
+}
+header{
+    background:white;
+    padding:10px;
+ }  
+header h1{
+     margin:0;   
+}   
+    
+div.photo{
+    background: white;
+    margin-top:10px;
+}
+div.photo img{
+    width:100%;
+}
+div.photo .photo-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.photo .photo-header div:last-child{
+        display: inline-block;
+        width: 19%;
+        color:gray;
+        
+        text-align: right;
+
+}
+div.photo h2, div.photo p{
+    padding:10px;
+}
+div.container{
+    width :600px;
+    margin:auto;
+}
